@@ -1,205 +1,339 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" data-theme="200">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio | Home</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/img/favicon.png" type="	image/x-icon">
+	<!-- Remixicons -->
+	<link rel="stylesheet" href="assets/font/remixicon/remixicon.css">
+	<!-- Css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Js -->
+	<script defer src="./assets/js/script.js"></script>
+</head>
+<body>
+	<!-- Header -->
+	<header class="hdr">
+		<a href="#" class="logo">Md.<span>Faisal</span></a>
+		<nav class="nv">
+			<ul class="nv_ul">
+				<li class="nv_li"><a href="index.html" class="nv_links active" data-link-name="home">Home</a></li>
+				<li class="nv_li"><a href="about.html" class="nv_links" data-link-name="about">About</a></li>
+				<li class="nv_li"><a href="services.html" class="nv_links" data-link-name="services">Services</a></li>
+				<li class="nv_li"><a href="projects.html" class="nv_links" data-link-name="projects">Projects</a></li>
+				<li class="nv_li"><a href="contact.html" class="nv_links" data-link-name="contact">Contact</a></li>
+			</ul>
+			<span class="nv_close"><i class="ri-close-line"></i></span>
+		</nav>
+		<span class="nv_open"><i class="ri-menu-line"></i></span>
+	</header>
+	<!-- Main -->
+	<main class="main">
+		<!-- Home -->
+		<section class="sec home" data-sec-name="home">
+			<div class="content">
+				<div class="text">
+					<h3 class="sec_subtitle">Hello, <span>I’m</span></h3>
+					<h1 class="sec_title">Md.Faisal</h1>
+					<h3 class="sec_subtitle">Front-end Developer</h3>
+					<p class="sec_description">
+						With knowledge in web development and 
+						design, I offer the best projects resulting 
+						in quality work.
+					</p>
+					<a href="#" class="btn">Let's Talk</a>
+				</div>
+				<div class="social">
+					<a href="#" style="--i: 0;"><i class="ri-youtube-fill"></i></a>
+					<a href="#" style="--i: 0.6;"><i class="ri-github-fill"></i></a>
+					<a href="#" style="--i: 1;"><i class="ri-blender-fill"></i></a>
+					<a href="#" style="--i: 1.4;"><i class="ri-dribbble-fill"></i></a>
+				</div>
+			</div>
+			<div class="image">
+				<svg viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskBlob" mask-type="alpha">
+					   <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+					   170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+					   447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+					   587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+					   438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+					</mask>
+					<g mask="url(#maskBlob)">
+					   <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+					   170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+					   447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+					   587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+					   438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+					   <rect x="37" width="476" height="630" fill="url(#pattern0)"/>
+					</g>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+					<rect x="37" width="476" height="300" fill="url(#pattern1)"/>
 
-        <title>Faisal | Portfolio</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Faisal</a>
-                </div>
+					<defs>
+					   <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+						  <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+					   </pattern>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+					   <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+						  <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
+					   </pattern>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Faisal</span><br> Web Designer</h1>
-
-                    <a href="#" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <!-- <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/> -->
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <!-- <img src="assets/img/about.jpg" alt=""> -->
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Faisal</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Faisal</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <p class="footer__copy">&#169; Faisal. All rigths reserved</p>
-        </footer>
-
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+					   <!-- Insert your profile (recommended size: 640 x 940) -->
+					   <image id="imageBlob" width="640" height="925" href="./assets/img/perfil.png"/>
+					</defs>
+				 </svg>
+			</div>
+		</section>
+		<!-- About -->
+		<section class="sec about" data-sec-name="about">
+			<div class="image">
+				<svg viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskBorder" mask-type="alpha">
+					<path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+					171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+					448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+					270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+					439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black"/>
+					</mask>
+					<g mask="url(#maskBorder)">
+					<rect x="37" width="476" height="630" fill="url(#pattern2)"/>
+					
+					<path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+					192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+					580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+					40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+					175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black" stroke-width="10"/>
+					</g>
+				
+					<rect x="37" width="476" height="300" fill="url(#pattern3)"/>
+				
+					<defs>
+					<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+						<use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+					</pattern>
+				
+					<pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+						<use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
+					</pattern>
+				
+					<!-- Insert your profile (recommended size: 640 x 940) -->
+					<image id="imageBorder" width="640" height="940" href="assets/img/perfil.png"/>
+					</defs>
+				</svg>
+			</div>
+			<div class="content">
+				<h3 class="sec_subtitle">
+					My <span>Intro</span>
+				</h3>
+				<h1 class="sec_title">About Me</h1>
+				<p class="sec_description">
+					Frontend developer, I create web pages with 
+					UI / UX user interface, I have years of 
+					experience and many clients are happy with the 
+					projects carried out.
+				</p>
+				<a href="#" class="btn">Contact Me</a>
+			</div>
+		</section>
+		<!-- Skill -->
+		<section class="sec skill" data-sec-name="about">
+			<div class="content">
+				<h3 class="sec_subtitle">
+					Favorite <span>Skills</span>
+				</h3>
+				<h1 class="sec_title">My Skills</h1>
+				<p class="sec_description">
+					See fully what skills I have and perform, 
+					to develop the projects for you.
+				</p>
+				<a href="#" class="btn">See Projects</a>
+			</div>
+			<div class="skill-items">
+				<ol>
+					<li>Html & Css</li>
+					<li>JavaScript</li>
+					<li>Php</li>
+					<li>Bootstrap</li>
+				</ol>
+				<ol start="5">
+					<li>React</li>
+					<li>Git & GitHub</li>
+					<li>Figma</li>
+					<li>Sketch</li>
+				</ol>
+			</div>
+		</section>
+		<!-- Services -->
+		<section class="sec services" data-sec-name="services">
+			<div class="content">
+				<h3 class="sec_subtitle">
+					My <span>Services
+				</h3>
+				<h1 class="sec_title">What I Do</h1>
+			</div>
+			<div class="cards">
+				<div class="card">
+					<i class="ri-layout-3-line"></i>
+					<h1 class="card_title">Web Developer</h1>
+					<p class="card_description">
+						Development of custom web pages. 
+						Using current technologies and 
+						libraries of the labor field.
+					</p>
+				</div>
+				<div class="card">
+					<i class="ri-pantone-line"></i>
+					<h1 class="card_title">UI/UX Designer</h1>
+					<p class="card_description">
+						I offer design of web interfaces and 
+						mobile applications, design made in 
+						figma, adobe xd and sketch.
+					</p>
+				</div>
+				<div class="card">
+					<i class="ri-pen-nib-line"></i>
+					<h1 class="card_title">Graphic Design</h1>
+					<p class="card_description">
+						I make designs at the client's request, 
+						banner design, posters, 
+						digital designs among others.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- Projects -->
+		<section class="sec projects" data-sec-name="projects">
+			<div class="content">
+				<h3 class="sec_subtitle">
+					My <span>Jobs</span>
+				</h3>
+				<h1 class="sec_title">Recent Projects</h1>
+			</div>
+			<div class="cards">
+				<div class="card">
+					<img src="./assets/img/project-img-1.jpg" class="card_img">
+					<div class="card_model">
+						<p class="card_subtitle">Web</p>
+						<h1 class="card_title">Modern website</h1>
+						<a href="#" class="card_btn">
+							<span>View demo</span>
+							<i class="ri-link"></i>
+						</a>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./assets/img/project-img-2.jpg" class="card_img">
+					<div class="card_model">
+						<p class="card_subtitle">Web</p>
+						<h1 class="card_title">Modern website</h1>
+						<a href="#" class="card_btn">
+							<span>View demo</span>
+							<i class="ri-link"></i>
+						</a>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./assets/img/project-img-3.jpg" class="card_img">
+					<div class="card_model">
+						<p class="card_subtitle">Web</p>
+						<h1 class="card_title">Modern website</h1>
+						<a href="#" class="card_btn">
+							<span>View demo</span>
+							<i class="ri-link"></i>
+						</a>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./assets/img/project-img-4.jpg" class="card_img">
+					<div class="card_model">
+						<p class="card_subtitle">Web</p>
+						<h1 class="card_title">Modern website</h1>
+						<a href="#" class="card_btn">
+							<span>View demo</span>
+							<i class="ri-link"></i>
+						</a>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./assets/img/project-img-5.jpg" class="card_img">
+					<div class="card_model">
+						<p class="card_subtitle">Web</p>
+						<h1 class="card_title">Modern website</h1>
+						<a href="#" class="card_btn">
+							<span>View demo</span>
+							<i class="ri-link"></i>
+						</a>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./assets/img/project-img-6.jpg" class="card_img">
+					<div class="card_model">
+						<p class="card_subtitle">Web</p>
+						<h1 class="card_title">Modern website</h1>
+						<a href="#" class="card_btn">
+							<span>View demo</span>
+							<i class="ri-link"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Contact -->
+		<section class="sec contact" data-sec-name="contact">
+			<div class="content">
+				<h3 class="sec_subtitle">
+					Get In <span>Touch</span>
+				</h3>
+				<h1 class="sec_title">Contact Me</h1>
+			</div>
+			<div class="form">
+				<div>
+					<input type="text" name="name" class="name" placeholder="Enter Your Name" required>
+					<input type="email" name="email" class="name" placeholder="Enter Your Email" required>
+				</div>
+				<div>
+					<textarea name="message" placeholder="Enter Your Message" required></textarea>
+				</div>
+				<div>
+					<button class="btn" type="submit">Send Message</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- Footer -->
+	<footer class="ftr">
+		<div class="content">
+			<h1 class="title">Md.<span>Faisal</span></h1>
+			<p class="education">Front-end Developer.</p>
+		</div>
+		<div class="social">
+			<a href="#"><i class="ri-youtube-fill"></i></a>
+			<a href="#"><i class="ri-instagram-fill"></i></a>
+			<a href="#"><i class="ri-google-fill"></i></a>
+			<a href="#"><i class="ri-dribbble-fill"></i></a>
+		</div>
+		<div class="copyright">
+			<span>&#169; Copyright <a href="#">Md.Faisal</a>. All rights reserved</span>
+		</div>
+	</footer>
+	<!-- Folting Element -->
+	<!-- Theme -->
+	<theme>
+		<theme-color data-hue="162"></theme-color>
+		<theme-color data-hue="200"></theme-color>
+		<theme-color data-hue="650"></theme-color>
+	</theme>
+	<!-- Welcome Toast -->
+	<toast type="normal">Welcome</toast>
+	<!-- Scroll Up -->
+	<div class="scroll_top">
+		<i class="ri-arrow-up-line"></i>
+	</div>
+	<!-- Cursor -->
+	<div class="cursor"></div>
+</body>
 </html>
